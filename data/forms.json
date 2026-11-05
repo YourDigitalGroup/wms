@@ -1,0 +1,116 @@
+[
+  {
+    "id": "form-4v5ta",
+    "title": "Contact — Warsaw Masonry Supply Form",
+    "fields": [
+      {
+        "id": "1i9t1il",
+        "type": "text",
+        "label": "Full Name *",
+        "required": true,
+        "placeholder": "",
+        "width": "half"
+      },
+      {
+        "id": "p18szv3",
+        "type": "phone",
+        "label": "Phone *",
+        "required": true,
+        "placeholder": "",
+        "width": "half"
+      },
+      {
+        "id": "8pddi7s",
+        "type": "email",
+        "label": "Email *",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "id": "enygod7",
+        "type": "select",
+        "label": "I am a…",
+        "required": false,
+        "choices": [
+          "Homeowner",
+          "Contractor",
+          "Builder",
+          "Landscaper",
+          "Mason",
+          "Commercial"
+        ],
+        "width": "half"
+      },
+      {
+        "id": "w2jkkwz",
+        "type": "select",
+        "label": "Project Type",
+        "required": false,
+        "choices": [
+          "Patio",
+          "Walkway",
+          "Retaining Wall",
+          "Fire Pit",
+          "Outdoor Kitchen",
+          "Outdoor Fireplace",
+          "Other"
+        ],
+        "width": "half"
+      },
+      {
+        "id": "pv81ar6",
+        "type": "checkbox",
+        "label": "Products",
+        "required": false,
+        "choices": [
+          "Brick",
+          "Natural Stone",
+          "Manufactured Stone",
+          "Pavers",
+          "Retaining Wall Systems",
+          "Hardscape Materials",
+          "Fireplaces",
+          "Stoves"
+        ]
+      },
+      {
+        "id": "kh8hir4",
+        "type": "textarea",
+        "label": "Project Details & Timeline",
+        "required": false,
+        "placeholder": "Tell us about your space, rough measurements, and when you'd like to start."
+      },
+      {
+        "id": "aygu0u3",
+        "type": "radio",
+        "label": "Contact Method",
+        "required": false,
+        "choices": [
+          "Phone",
+          "Email"
+        ]
+      }
+    ],
+    "settings": {
+      "notifyTo": "",
+      "subject": "New Form Submission",
+      "confirmation": "Thanks! Your message has been received.",
+      "submitLabel": "Request My Free Quote",
+      "css": "/* Base form styling */\n.foundry-form input, .foundry-form textarea, .foundry-form select {\n    background-color: rgb(21, 18, 13) !important;\n    color: rgb(243, 238, 228) !important;\n    border: 1px solid rgba(200, 162, 76, 0.18) !important;\n    border-radius: 0px !important;\n    padding: 14px 16px !important;\n    font-size: 15px !important;\n    font-family: Jost, sans-serif !important;\n    font-weight: 300 !important;\n    line-height: normal !important;\n    box-shadow: none !important;\n}\n\n.foundry-form input::placeholder, .foundry-form textarea::placeholder {\n    color: rgba(243, 238, 228, 0.5) !important;\n    opacity: 1 !important;\n}\n\n/* Label & Typography styling */\n.foundry-form .ff-label, .foundry-form .ff-choice {\n    color: rgb(182, 169, 143) !important;\n    font-size: 12px !important;\n    font-weight: 500 !important;\n    letter-spacing: 1.68px !important;\n    text-transform: uppercase !important;\n    font-family: Jost, sans-serif !important;\n}\n\n/* Make asterisks visible and match the label color */\n.foundry-form .ff-req {\n    display: none !important;\n\n}\n\n/* Form Container - Transparent to blend with outer div */\n#ffm-form-4v5ta.foundry-form {\n    background: transparent !important;\n    padding: 0 !important;\n    border-radius: 0 !important;\n    display: flex;\n    flex-direction: column;\n}\n\n/* Reorder elements to place disclaimer at the bottom */\n.foundry-form .ff-page { order: 1; }\n.foundry-form .ff-msg { order: 2; }\n.foundry-form .ff-submit { \n    order: 3; \n    margin-top: 15px; \n    margin-bottom: 12px;\n}\n.foundry-form .ff-header { \n    order: 4; \n    margin: 0;\n}\n\n/* Hide duplicate title inside the form */\n.foundry-form .ff-header .ff-form-title {\n    display: none;\n}\n\n/* Style bottom disclaimer text */\n.foundry-form .ff-header .ff-form-desc {\n    color: #8c867a;\n    font-family: 'Jost', sans-serif;\n    font-size: 14px;\n    font-weight: 300;\n}\n\n/* 2-Column Layout for Specific Fields */\n.foundry-form .ff-field.ff-half {\n    flex: 1 1 calc(50% - 9px) !important;\n    max-width: calc(50% - 9px);\n}\n\n/* Checkbox Grid (Products) */\n.foundry-form [data-fid=\"pv81ar6\"] {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    row-gap: 16px;\n    column-gap: 12px;\n}\n\n/* Radio Button Row (Contact Method) */\n.foundry-form [data-fid=\"aygu0u3\"] {\n    display: flex;\n    flex-direction: row;\n    gap: 30px;\n}\n\n/* Submit Button */\n.foundry-form .ff-submit {\n    width: 100%;\n    background-color: #c8a24c !important;\n    color: #15120d !important;\n    border-radius: 0 !important;\n    font-family: 'Jost', sans-serif !important;\n    text-transform: uppercase;\n    font-weight: 600 !important;\n    letter-spacing: 2px;\n    font-size: 14px;\n    padding: 18px !important;\n    transition: opacity 0.2s ease;\n}\n\n.foundry-form .ff-submit:hover {\n    opacity: 0.9;\n}",
+      "headerTitle": "Request A Free Quote",
+      "headerDesc": "By submitting, you agree to be contacted about your project. We never share your information.",
+      "style": {
+        "bg": "#1a1610",
+        "button": "#c8a24c"
+      },
+      "webhookUrl": "",
+      "webhookSecret": "",
+      "password": "",
+      "maxResponses": 0,
+      "closeDate": "",
+      "phoneFormat": "",
+      "ghlSource": null,
+      "ghlAuto": []
+    }
+  }
+]

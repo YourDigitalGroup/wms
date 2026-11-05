@@ -1,0 +1,179 @@
+{
+    "ok": true,
+    "imported_at": "2026-11-04T22:42:53+00:00",
+    "dry_run": false,
+    "source": {
+        "site": "https://warsawmasonry.com",
+        "generated_at": "2026-11-04T22:10:02.961Z",
+        "package_id": "01010600-70f0-4ad0-9a55-5f892b8f2b53",
+        "audit_score": 72,
+        "client": "Warsaw Masonry Supply",
+        "tier": "pro"
+    },
+    "applied": [
+        {
+            "type": "business",
+            "item": "Warsaw Masonry Supply",
+            "note": "NAP, hours, service area, rating 4.5 (33) \u2014 every page now carries a complete LocalBusiness graph; filled empty Site Info fields: address.street, address.city, address.state, address.zip"
+        },
+        {
+            "type": "content_page",
+            "item": "Hardscape Materials Columbia City, IN",
+            "note": "created hardscape-materials-columbia-city-in.html \u2014 scheduled for 2027-02-02T15:00:00+00:00; its title tag, description and H1 came inside the slug field \u2014 split out and used"
+        },
+        {
+            "type": "content_page",
+            "item": "Contractor Masonry Supplies",
+            "note": "created contractor-masonry-supplies.html \u2014 scheduled for 2026-11-05T22:10:02+00:00; its title tag, description and H1 came inside the slug field \u2014 split out and used"
+        },
+        {
+            "type": "content_page",
+            "item": "Hardscape Materials Winona Lake, IN",
+            "note": "created hardscape-materials-winona-lake-in.html \u2014 scheduled for 2027-01-02T15:00:00+00:00; its title tag, description and H1 came inside the slug field \u2014 split out and used"
+        },
+        {
+            "type": "content_page",
+            "item": "Brick & Stone Supply Winona Lake, IN",
+            "note": "created brick-stone-supply-winona-lake-in.html \u2014 scheduled for 2026-11-07T22:10:02+00:00; its title tag, description and H1 came inside the slug field \u2014 split out and used"
+        },
+        {
+            "type": "content_page",
+            "item": "Brick & Stone Supply Rochester, IN",
+            "note": "created brick-stone-supply-rochester-in.html \u2014 scheduled for 2026-12-02T15:00:00+00:00; its title tag, description and H1 came inside the slug field \u2014 split out and used"
+        },
+        {
+            "type": "content_post",
+            "item": "Landscape Stone Supplier",
+            "note": "created /posts.html?p=landscape-stone-supplier \u2014 scheduled for 2026-11-07T22:10:02+00:00; its title tag, description and H1 came inside the slug field \u2014 split out and used"
+        },
+        {
+            "type": "content_page",
+            "item": "Brick & Stone Supply Columbia City, IN",
+            "note": "created brick-stone-supply-columbia-city-in.html \u2014 scheduled for 2026-11-05T22:10:02+00:00; its title tag, description and H1 came inside the slug field \u2014 split out and used"
+        }
+    ],
+    "skipped": [],
+    "manual": [
+        {
+            "type": "site_task",
+            "item": "Favicon",
+            "action": "This site has no favicon. Add one in Design \u2192 Favicon \u2014 browsers show a blank page icon without it, and the audit counts it."
+        },
+        {
+            "type": "site_task",
+            "item": "Privacy policy",
+            "action": "This site has no privacy policy page. The audit's trust pillar needs one, linked from the footer \u2014 create it in Pages."
+        },
+        {
+            "type": "site_task",
+            "item": "Canonical host",
+            "action": "Confirm that https://warsawmasonry.com redirects to https://www.warsawmasonry.com (your configured domain). Fourge does not add that redirect itself \u2014 a wrong guess sends an indexed domain to a hostname that may have no certificate. Set it at the host or in DNS."
+        },
+        {
+            "type": "gbp_post",
+            "item": "GBP post: Hardscape Materials Warsaw, IN",
+            "action": "**Google Business Profile Post**\n\nHardscape materials form the foundation of any outdoor space that needs to last. Warsaw Masonry Supply stocks everything you need to build patios, walkways, retaining walls, and driveways that withstand Indiana's weather cycles. Whether you're working with natural stone, pavers, brick, or concrete units, choosing the right materials matters as much as installation technique.\n\nQuality hardscape materials resist freeze-thaw damage, settle evenly over time, and maintain their appearance through seasons of sun, rain, and snow. Warsaw Masonry Supply carries a range of options suited to residential and commercial projects, from traditional to contemporary aesthetics. Our inventory includes materials in different sizes, colors, and finishes so your design vision translates accurately to the finished project.\n\nSelecting hardscape materials involves understanding drainage, load-bearing requirements, and how materials perform in local conditions. Whether you're replacing a worn patio or building new outdoor living space, the material you choose affects durability, maintenance, and long-term cost. Visiting in person lets you see colors and textures in natural light and discuss your project specifics with someone who knows the products.\n\nIf you're planning a hardscape project in Warsaw, stop by and let us help you find the right materials for the job."
+        },
+        {
+            "type": "gbp_post",
+            "item": "GBP post: Brick & Stone Supply Warsaw, IN",
+            "action": "# GBP POST: Brick & Stone Supply Warsaw, IN\n\nSpring is the perfect time to plan your masonry project. Whether you're thinking about a new patio, garden wall, or home exterior upgrade, the materials you choose set the tone for durability and curb appeal. At Warsaw Masonry Supply, we stock a full range of bricks, stones, pavers, and complementary supplies to support projects of any scale\u2014from weekend DIY work to professional contractor jobs.\n\nOur inventory includes traditional clay bricks, decorative stone veneer, natural flagstone, and engineered pavers designed to handle Indiana's freeze-thaw cycles. We also carry mortar, grout, sealers, and tools to help you finish the job right. Our team knows the local climate and can recommend materials that hold up through our winters and look great for years.\n\nWhether you're a homeowner sketching out ideas or a mason with a truck to load, stop by and let us help you find exactly what your project needs. We're here to answer questions about material selection, estimate quantities, and make sure you leave with confidence.\n\nReady to start? Call us or use our contact form to ask about availability, bulk pricing, or to swing by and see our current selection in person."
+        },
+        {
+            "type": "gbp_post",
+            "item": "GBP post: Retaining Wall Systems Warsaw, IN",
+            "action": "# Google Business Profile Post\n\nRetaining walls handle slope stabilization, prevent erosion, and create usable level ground on properties with elevation changes. Warsaw Masonry Supply serves Warsaw, Indiana with materials and expertise for residential and commercial retaining wall systems that last.\n\nA retaining wall works by holding back soil on one side while supporting it on the other. The wall must be built to withstand lateral pressure from earth and water. Material choice matters: concrete blocks, natural stone, segmental units, and poured concrete each have different load ratings, aesthetics, and installation requirements. The foundation must extend below the frost line to prevent heave in freeze-thaw cycles common in Indiana winters.\n\nProper drainage behind the wall keeps hydrostatic pressure from building up and forcing the wall outward. Backfill material, compaction method, and weep holes all play a role in system longevity. A wall that looks straight today but leans next spring usually had drainage or compaction issues at install time.\n\nWhether you're terracing a backyard, creating a driveway approach, or stabilizing a steep lot line, the wall system must match your soil type, slope angle, and expected service life. Local soil conditions and frost depth in Warsaw require designs that account for Indiana's climate.\n\nWarsaw Masonry Supply stocks the blocks, stone, and materials contractors and homeowners need to build lasting retaining walls. Stop by or contact us to discuss your project requirements and get the right materials for the job."
+        },
+        {
+            "type": "gbp_post",
+            "item": "GBP post: Paver Sales Warsaw, IN",
+            "action": "# GBP POST: Paver Sales Warsaw, IN\n\nSpring is the perfect time to think about your outdoor space. Whether you're planning a new patio, driveway, or walkway, the right pavers can transform how your property looks and functions. Warsaw Masonry Supply carries a range of paver options to suit different styles, budgets, and durability needs. From classic brick to permeable pavers that handle drainage well, we stock materials that work for both residential and commercial projects.\n\nChoosing pavers involves more than picking a color. You'll want to consider the base preparation, the climate, foot traffic patterns, and maintenance requirements. Our team can help you understand the differences between concrete pavers, clay brick, natural stone, and other options so you make a choice that fits your actual use case. We also stock the sand, gravel, edging, and other materials you'll need for proper installation.\n\nWhether you're a contractor who builds dozens of jobs a year or a homeowner tackling your first outdoor project, sourcing quality materials locally saves time and money. You avoid shipping delays and can inspect what you're buying before it leaves our yard. If you have questions about what will work best for your climate and design, stop by and talk through it with us.\n\nReady to start your next hardscape project? Call us or use our contact form to discuss your paver needs with Warsaw Masonry Supply today."
+        },
+        {
+            "type": "directive",
+            "item": "PageSpeed performance (mobile 80+)",
+            "action": "Work the PageSpeed opportunity list until the mobile score is 80+."
+        },
+        {
+            "type": "directive",
+            "item": "Full-site crawl coverage",
+            "action": "Configure a crawl project so every page is audited, not a sample."
+        },
+        {
+            "type": "directive",
+            "item": "Largest Contentful Paint \u2264 3.0s",
+            "action": "Preload + compress the hero image; serve modern formats (WebP/AVIF)."
+        },
+        {
+            "type": "directive",
+            "item": "15 link/citation opportunities from competitor backlinks",
+            "action": "Pursue listings/links on: yahoo.com, dnb.com, yellowbook.com, instantcheckmate.com, weebly.com, \u2026"
+        },
+        {
+            "type": "directive",
+            "item": "Credentials/trust language",
+            "action": "State licenses, certifications, awards and years in business."
+        },
+        {
+            "type": "directive",
+            "item": "Ranking for local-intent terms",
+            "action": "Build '[service] [city]' landing pages across the trade area."
+        },
+        {
+            "type": "directive",
+            "item": "Trade-area town coverage",
+            "action": "Publish a landing page per secondary town \u00d7 top service."
+        },
+        {
+            "type": "directive",
+            "item": "No major PageSpeed opportunities",
+            "action": "Fix the flagged items: compression, image formats, render-blocking resources, caching."
+        },
+        {
+            "type": "punchlist",
+            "item": "Site build: Meta descriptions well-formed (4/7 pages weak/missing)",
+            "action": "Write 150\u2013160 char descriptions with keyword + CTA."
+        },
+        {
+            "type": "punchlist",
+            "item": "Site build: Open Graph tags complete (og:title / og:description / og:image incomplete)",
+            "action": "Add og:title, og:description and og:image so shares render rich cards."
+        },
+        {
+            "type": "punchlist",
+            "item": "Site build: Internal linking to target pages (1 near-miss keywords need internal-link support)",
+            "action": "Add contextual internal links toward the near-miss pages."
+        },
+        {
+            "type": "punchlist",
+            "item": "Site build: AggregateRating schema",
+            "action": "Mark up real reviews with AggregateRating."
+        },
+        {
+            "type": "punchlist",
+            "item": "Site build: llms.txt for AI crawlers",
+            "action": "Publish /llms.txt describing the business, services and key pages for AI assistants."
+        },
+        {
+            "type": "punchlist",
+            "item": "Site build: Entity sameAs profile links",
+            "action": "Link the brand's profiles (GBP, Facebook, LinkedIn, \u2026) via sameAs in Organization schema."
+        },
+        {
+            "type": "punchlist",
+            "item": "Site build: Review signals on-site",
+            "action": "Surface real testimonials with review markup."
+        },
+        {
+            "type": "punchlist",
+            "item": "Site build: Named people (Person schema)",
+            "action": "Add owner/expert bios with Person JSON-LD + sameAs."
+        }
+    ],
+    "counts": {
+        "applied": 8,
+        "skipped": 0,
+        "manual": 23
+    },
+    "published_now": []
+}

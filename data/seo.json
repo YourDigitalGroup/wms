@@ -1,93 +1,263 @@
 {
-  "home": {
-    "titleTag": "",
-    "metaDescription": "",
-    "focusKeyword": "",
-    "ogTitle": "",
-    "ogDescription": "",
-    "ogImage": "",
-    "canonical": "",
-    "schema": "LocalBusiness",
-    "aeoAnswer": "",
-    "aeoTopics": [],
-    "aeoFAQs": []
-  },
-  "about": {
-    "titleTag": "",
-    "metaDescription": "",
-    "focusKeyword": "",
-    "ogTitle": "",
-    "ogDescription": "",
-    "ogImage": "",
-    "canonical": "",
-    "schema": "LocalBusiness",
-    "aeoAnswer": "",
-    "aeoTopics": [],
-    "aeoFAQs": []
-  },
-  "services": {
-    "titleTag": "",
-    "metaDescription": "",
-    "focusKeyword": "",
-    "ogTitle": "",
-    "ogDescription": "",
-    "ogImage": "",
-    "canonical": "",
-    "schema": "LocalBusiness",
-    "aeoAnswer": "",
-    "aeoTopics": [],
-    "aeoFAQs": []
-  },
-  "locations": {
-    "titleTag": "",
-    "metaDescription": "",
-    "focusKeyword": "",
-    "ogTitle": "",
-    "ogDescription": "",
-    "ogImage": "",
-    "canonical": "",
-    "schema": "LocalBusiness",
-    "aeoAnswer": "",
-    "aeoTopics": [],
-    "aeoFAQs": []
-  },
-  "faq": {
-    "titleTag": "",
-    "metaDescription": "",
-    "focusKeyword": "",
-    "ogTitle": "",
-    "ogDescription": "",
-    "ogImage": "",
-    "canonical": "",
-    "schema": "LocalBusiness",
-    "aeoAnswer": "",
-    "aeoTopics": [],
-    "aeoFAQs": []
-  },
-  "contact": {
-    "titleTag": "",
-    "metaDescription": "",
-    "focusKeyword": "",
-    "ogTitle": "",
-    "ogDescription": "",
-    "ogImage": "",
-    "canonical": "",
-    "schema": "LocalBusiness",
-    "aeoAnswer": "",
-    "aeoTopics": [],
-    "aeoFAQs": []
-  },
-  "blog": {
-    "titleTag": "",
-    "metaDescription": "",
-    "focusKeyword": "",
-    "ogTitle": "",
-    "ogDescription": "",
-    "ogImage": "",
-    "canonical": "",
-    "schema": "LocalBusiness",
-    "aeoAnswer": "",
-    "aeoTopics": [],
-    "aeoFAQs": []
-  }
+    "home": {
+        "titleTag": "",
+        "metaDescription": "",
+        "focusKeyword": "masonry supply warsaw indiana",
+        "ogTitle": "Warsaw Masonry Supply \u2014 Premium Brick, Stone & Hardscape in Warsaw, IN",
+        "ogDescription": "From brick and natural stone to pavers, retaining walls and outdoor kitchens \u2014 Warsaw Masonry Supply provides the materials and expert guidance your project needs.",
+        "ogImage": "",
+        "canonical": "",
+        "schema": "LocalBusiness",
+        "aeoAnswer": "Warsaw Masonry Supply is Northern Indiana's leading masonry supplier, serving Warsaw and Kosciusko County with premium brick, natural stone, pavers, retaining walls, outdoor kitchen materials, and fireplaces \u2014 backed by hands-on expert guidance for homeowners, contractors, builders, landscapers, masons, and commercial projects.",
+        "aeoTopics": [],
+        "aeoFAQs": [
+            {
+                "question": "What products does Warsaw Masonry Supply carry?",
+                "answer": "Warsaw Masonry Supply stocks a full range of premium masonry and hardscape materials including brick, natural stone, pavers, retaining wall systems, outdoor kitchen materials, and fireplaces and stoves. Every product is sourced from trusted manufacturers chosen for durability and performance in Indiana's climate. You can browse the full product selection online or visit the store for hands-on guidance."
+            },
+            {
+                "question": "Who does Warsaw Masonry Supply serve?",
+                "answer": "Warsaw Masonry Supply serves a wide range of customers including homeowners, contractors, builders, landscapers, masons, and commercial projects throughout Warsaw and Kosciusko County. As a local family business, they provide a level of personalized accountability that big-box stores cannot match. Whether you're tackling a backyard paver walkway or a large commercial build, they're equipped to help."
+            },
+            {
+                "question": "How do I get started on a project with Warsaw Masonry Supply?",
+                "answer": "You can get started by scheduling an appointment or requesting a free quote directly through the Warsaw Masonry Supply website. Their team will help you select the right materials, estimate quantities accurately, and set your project up for success from the first idea to the finished space. You can also reach them by phone at 574.267.2825."
+            }
+        ],
+        "title": "Warsaw Masonry Supply | Brick, Stone & Hardscape Warsaw IN",
+        "description": "Northern Indiana's trusted masonry supplier \u2014 premium brick, stone, pavers & hardscape with expert guidance. Serving Warsaw & Kosciusko County. Request a free quote."
+    },
+    "about": {
+        "titleTag": "",
+        "metaDescription": "",
+        "focusKeyword": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "canonical": "",
+        "schema": "LocalBusiness",
+        "aeoAnswer": "",
+        "aeoTopics": [],
+        "aeoFAQs": []
+    },
+    "services": {
+        "titleTag": "",
+        "metaDescription": "",
+        "focusKeyword": "masonry hardscape services warsaw indiana",
+        "ogTitle": "Expert Masonry & Hardscape Services in Warsaw, Indiana",
+        "ogDescription": "Not sure which stone, brick, or paver is right for your project? Warsaw Masonry provides hands-on consultation, material estimation, product sourcing, and contractor support \u2014 all in one place.",
+        "ogImage": "",
+        "canonical": "",
+        "schema": "LocalBusiness",
+        "aeoAnswer": "This page describes the masonry and hardscape services offered by Warsaw Masonry Supply in Warsaw, Indiana, including material selection consultations, product recommendations, project material estimation, contractor support, and product sourcing for homeowners and builders.",
+        "aeoTopics": [],
+        "aeoFAQs": [
+            {
+                "question": "What masonry and hardscape services does Warsaw Masonry offer?",
+                "answer": "Warsaw Masonry offers eight core services: material selection and consultation, product recommendations, contractor and builder support, homeowner project planning, outdoor living design inspiration, project material estimation, product sourcing, and access to a project gallery. Every service is designed to help customers buy with confidence and build without surprises."
+            },
+            {
+                "question": "Does Warsaw Masonry help estimate how much material I need for my project?",
+                "answer": "Yes. Warsaw Masonry provides project material estimation based on your project's dimensions, the product you have chosen, and the type of application. Bringing your measurements and design details allows the team to calculate the right quantities, reducing waste and avoiding costly material shortages."
+            },
+            {
+                "question": "Can Warsaw Masonry source brick or stone that isn't available in standard retail stores?",
+                "answer": "Yes. If you cannot find the specific brick, stone, or hardscape product you need, Warsaw Masonry will work to locate it, including items outside standard retail channels. Contact the team with your product details and they will assist with sourcing."
+            }
+        ],
+        "title": "Masonry & Hardscape Services | Warsaw Masonry Supply",
+        "description": "From material selection to project estimation, Warsaw Masonry offers expert masonry & hardscape services in Warsaw, IN. Schedule your free consultation today."
+    },
+    "locations": {
+        "titleTag": "",
+        "metaDescription": "",
+        "focusKeyword": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "canonical": "",
+        "schema": "LocalBusiness",
+        "aeoAnswer": "",
+        "aeoTopics": [],
+        "aeoFAQs": []
+    },
+    "faq": {
+        "titleTag": "",
+        "metaDescription": "",
+        "focusKeyword": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "canonical": "",
+        "schema": "LocalBusiness",
+        "aeoAnswer": "",
+        "aeoTopics": [],
+        "aeoFAQs": []
+    },
+    "contact": {
+        "titleTag": "",
+        "metaDescription": "",
+        "focusKeyword": "contact warsaw masonry supply",
+        "ogTitle": "Request a Free Quote from Warsaw Masonry Supply",
+        "ogDescription": "Tell us about your patio, retaining wall, fire pit, or outdoor project and our team will help you choose materials and estimate quantities \u2014 at no cost.",
+        "ogImage": "",
+        "canonical": "",
+        "schema": "LocalBusiness",
+        "aeoAnswer": "This page allows customers to contact Warsaw Masonry Supply at 574.267.2825 or submit a free quote request form for masonry projects including patios, walkways, retaining walls, and outdoor living spaces. The team serves Warsaw, Kosciusko County, and Northern Indiana and will follow up to help plan materials and estimates.",
+        "aeoTopics": [],
+        "aeoFAQs": [
+            {
+                "question": "How do I request a free quote from Warsaw Masonry Supply?",
+                "answer": "You can request a free quote by submitting the online form on this page or by calling 574.267.2825. Share your project type, measurements, and any details you have and the team will follow up by your preferred contact method to help plan materials and quantities."
+            },
+            {
+                "question": "Where is Warsaw Masonry Supply located and what areas do they serve?",
+                "answer": "Warsaw Masonry Supply is located at 1403 N Detroit St, Warsaw, IN 46580. They serve customers throughout Warsaw, Kosciusko County, and the surrounding Northern Indiana area. The store is open Monday through Friday, 7:00 AM to 5:00 PM."
+            },
+            {
+                "question": "Do I need an appointment to visit Warsaw Masonry Supply?",
+                "answer": "You are welcome to stop by or reach out any way that is convenient, including calling or submitting the quote form online. Scheduling an appointment in advance ensures a team member is ready to give your project their full attention when you arrive."
+            }
+        ],
+        "title": "Contact Warsaw Masonry Supply | Free Quote Request",
+        "description": "Contact Warsaw Masonry Supply in Warsaw, IN to request a free quote or schedule an appointment. Serving Kosciusko County & Northern Indiana. Reach out today."
+    },
+    "blog": {
+        "titleTag": "",
+        "metaDescription": "",
+        "focusKeyword": "",
+        "ogTitle": "",
+        "ogDescription": "",
+        "ogImage": "",
+        "canonical": "",
+        "schema": "LocalBusiness",
+        "aeoAnswer": "",
+        "aeoTopics": [],
+        "aeoFAQs": []
+    },
+    "__site": {
+        "separator": "|",
+        "defaultOg": "",
+        "orgType": "LocalBusiness",
+        "includeOrg": true,
+        "robotsTxt": ""
+    },
+    "gallery": {
+        "title": "Project Gallery \u2014 Brick, Stone & Pavers | Warsaw Masonry",
+        "description": "Browse real masonry projects featuring premium brick, stone and pavers \u2014 patios, walkways, fire features and more. Find your look and request a free quote today.",
+        "focusKeyword": "masonry project gallery warsaw",
+        "ogTitle": "See Real Masonry Projects in Your Community | Warsaw Masonry",
+        "ogDescription": "From paver patios to outdoor kitchens and retaining walls \u2014 explore Warsaw Masonry's project gallery and find inspiration for your next outdoor living space.",
+        "aeoAnswer": "Warsaw Masonry's project gallery showcases real completed projects throughout the community, including paver walkways, patios, fire features, outdoor kitchens, and retaining walls built using their premium brick, stone, and paver products. Visitors can browse photos for inspiration and bring their favorites to the Warsaw Masonry team to identify products and recreate the look.",
+        "aeoFAQs": [
+            {
+                "question": "What types of projects are shown in the Warsaw Masonry project gallery?",
+                "answer": "The Warsaw Masonry project gallery features real completed projects from throughout the community. Examples include paver walkways and patios, fire features, outdoor kitchens, and retaining walls. All projects showcase how their premium brick, stone, and paver products come together in actual outdoor living spaces."
+            },
+            {
+                "question": "Can Warsaw Masonry help me recreate a look I see in the gallery?",
+                "answer": "Yes \u2014 Warsaw Masonry encourages you to bring in any gallery images that speak to you. Their team will help you identify the specific products and plan needed to recreate the look. You can also request a free quote by calling 574.267.2825."
+            },
+            {
+                "question": "How do I view the photos in the Warsaw Masonry project gallery?",
+                "answer": "Browsing the gallery is simple \u2014 just tap any photo to view it in a larger format. The gallery is designed to help you explore finished masonry projects and find inspiration for your own outdoor space before reaching out to the Warsaw Masonry team."
+            }
+        ]
+    },
+    "outdoor-living": {
+        "title": "Outdoor Living Materials \u2014 Warsaw Masonry Supply",
+        "description": "Warsaw Masonry Supply provides hardscape materials for patios, fire pits, outdoor kitchens & more in Warsaw & Northern Indiana. Schedule a free appointment today.",
+        "focusKeyword": "outdoor living materials warsaw",
+        "ogTitle": "Build Your Dream Backyard with Warsaw Masonry Supply",
+        "ogDescription": "From fire pits to full outdoor kitchens, Warsaw Masonry Supply is Northern Indiana's source for hardscape and outdoor living materials. Get inspired and get started.",
+        "aeoAnswer": "This page is about outdoor living materials supplied by Warsaw Masonry Supply for homeowners in Warsaw and Northern Indiana, covering patios, fire pits, outdoor kitchens, retaining walls, walkways, outdoor fireplaces, and gathering spaces.",
+        "aeoFAQs": [
+            {
+                "question": "What outdoor living materials does Warsaw Masonry Supply carry?",
+                "answer": "Warsaw Masonry Supply carries materials for patios, fire pits, outdoor kitchens, outdoor fireplaces, retaining walls, walkways, and outdoor gathering spaces. They serve as a single source for hardscape and outdoor living projects in Warsaw and Northern Indiana."
+            },
+            {
+                "question": "Can Warsaw Masonry Supply help me plan a complete backyard outdoor living space?",
+                "answer": "Yes. The Warsaw Masonry Supply team helps homeowners plan projects of every scale, from a single fire pit to a full backyard transformation. They can recommend materials that keep the entire outdoor space cohesive."
+            },
+            {
+                "question": "Does Warsaw Masonry Supply have design inspiration for outdoor living projects?",
+                "answer": "Yes. Warsaw Masonry Supply offers a Project Gallery where you can browse completed patios, outdoor kitchens, fire pits, retaining walls, and more. It's designed to help homeowners gather ideas and see how the products come together in real projects."
+            }
+        ]
+    },
+    "privacy-policy": {
+        "title": "Warsaw Masonry Privacy Policy | WMS",
+        "description": "Learn how Warsaw Masonry collects, uses, and protects your personal information. Read our privacy policy to make informed decisions. Questions? Contact us today.",
+        "focusKeyword": "warsaw masonry privacy policy",
+        "ogTitle": "Warsaw Masonry Privacy Policy \u2014 Your Data, Protected",
+        "ogDescription": "Warsaw Masonry is committed to protecting your privacy. See how we collect, use, and safeguard your personal information when you visit our site.",
+        "aeoAnswer": "This page is the Warsaw Masonry (WMS) Privacy Policy, which explains what personal and non-personal information is collected from site visitors, how it is used and protected, and how users can contact the company with privacy-related questions.",
+        "aeoFAQs": [
+            {
+                "question": "Does Warsaw Masonry sell or share my personal information with third parties?",
+                "answer": "Warsaw Masonry does not sell, trade, rent, or otherwise share your personal information with third parties without your consent. They may share information with vendors or third-party providers who are performing services on behalf of the company, and those parties are only permitted to use your information for those specific services."
+            },
+            {
+                "question": "What kind of information does Warsaw Masonry collect when I visit their website?",
+                "answer": "Warsaw Masonry may collect personally identifiable information such as your name and email address when you provide it voluntarily. They also automatically collect log data through cookies, including your IP address, browser type, pages visited, and time spent on the site, which is used for general website statistics and business purposes."
+            },
+            {
+                "question": "Is the Warsaw Masonry website safe for children to use?",
+                "answer": "The Warsaw Masonry website is not intended for children under 13 years of age. The company does not knowingly collect personal information from children under 13 and asks that users in that age group do not submit any information on the site."
+            }
+        ]
+    },
+    "products": {
+        "title": "Masonry & Hardscape Products | Warsaw Masonry Supply",
+        "description": "Shop brick, natural stone, pavers, retaining walls & more masonry products in Warsaw, Indiana. Expert guidance included \u2014 schedule a free consultation today.",
+        "focusKeyword": "masonry hardscape products warsaw indiana",
+        "ogTitle": "Premium Masonry & Hardscape Products in Warsaw, Indiana",
+        "ogDescription": "From brick and natural stone to pavers and outdoor fireplaces \u2014 Warsaw Masonry Supply stocks materials for every project size and style. Book a free materials consultation.",
+        "aeoAnswer": "This page showcases the full range of masonry and hardscape products available at Warsaw Masonry Supply in Warsaw, Indiana, including brick, natural stone, manufactured stone, retaining wall systems, pavers, hardscape materials, outdoor fireplaces, and wood and gas stoves \u2014 with free material selection consultations available.",
+        "aeoFAQs": [
+            {
+                "question": "What masonry and hardscape products does Warsaw Masonry Supply carry?",
+                "answer": "Warsaw Masonry Supply stocks brick, natural stone, manufactured stone, retaining wall systems, pavers, hardscape materials, outdoor fireplaces, and wood and gas stoves. Their inventory covers materials for projects of virtually every size and style, all sourced from manufacturers known for durability and lasting beauty."
+            },
+            {
+                "question": "How do I know which masonry product is right for my project?",
+                "answer": "Warsaw Masonry Supply offers free material selection and consultation to help you compare options like natural stone versus manufactured stone across cost, appearance, weight, durability, and installation requirements. You can schedule an appointment and their team will walk you through the available materials in person."
+            },
+            {
+                "question": "Are Warsaw Masonry Supply's products suitable for Indiana's freeze-thaw winters?",
+                "answer": "Yes \u2014 because products are sourced from manufacturers known for durability, most are well suited to Indiana's climate and repeated freeze-thaw cycles. During your free consultation, the team can specifically recommend the brick, stone, and pavers that perform best in local weather conditions."
+            }
+        ]
+    },
+    "hardscape-materials-columbia-city-in": {
+        "title": "Hardscape Materials for Columbia City, IN | Warsaw Masonry",
+        "description": "Warsaw Masonry Supply provides hardscape materials to Columbia City, IN \u2014 pavers, retaining wall block, edging & more. Visit us or use our contact form to get started.",
+        "focusKeyword": "Hardscape materials Columbia City, IN"
+    },
+    "contractor-masonry-supplies": {
+        "title": "Contractor Masonry Supplies in Warsaw, IN | WMS",
+        "description": "Contractor masonry supplies in Warsaw, Indiana\u2014brick, block, stone, mortar & tools for every project. Call (574) 267-2825 to order today.",
+        "focusKeyword": "contractor masonry supplies"
+    },
+    "hardscape-materials-winona-lake-in": {
+        "title": "Hardscape Materials in Winona Lake, IN | Warsaw Masonry Supply",
+        "description": "Warsaw Masonry Supply provides hardscape materials for Winona Lake, IN projects\u2014pavers, retaining wall block, natural stone & more. Visit us or use our contact form today.",
+        "focusKeyword": "Hardscape materials Winona Lake, IN"
+    },
+    "brick-stone-supply-winona-lake-in": {
+        "title": "Brick & Stone Supply in Winona Lake, IN",
+        "description": "Warsaw Masonry Supply provides brick, stone, and masonry materials to Winona Lake, IN. Browse our selection and get what you need for your next project \u2014 call us or use our contact form.",
+        "focusKeyword": "Brick & stone supply Winona Lake, IN"
+    },
+    "brick-stone-supply-rochester-in": {
+        "title": "Brick & Stone Supply for Rochester, IN | Warsaw Masonry",
+        "description": "Warsaw Masonry Supply serves Rochester, IN with a full selection of brick, stone, and masonry materials. Browse your options and get your project started today.",
+        "focusKeyword": "Brick & stone supply Rochester, IN"
+    },
+    "brick-stone-supply-columbia-city-in": {
+        "title": "Brick & Stone Supply Near Columbia City, IN",
+        "description": "Warsaw Masonry Supply provides brick, stone, and masonry materials to Columbia City, IN projects. Browse our selection and call (574) 267-2825 to get started.",
+        "focusKeyword": "Brick & stone supply Columbia City, IN"
+    }
 }

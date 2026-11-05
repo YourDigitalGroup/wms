@@ -1,1 +1,50 @@
-{}
+{
+    "hardscape-materials-columbia-city-in": {
+        "title": "Hardscape Materials Columbia City, IN",
+        "file": "hardscape-materials-columbia-city-in.html",
+        "path": "hardscape-materials-columbia-city-in.html",
+        "extId": "6cac0034-d671-4e8a-b06e-8ebbb35176e3",
+        "draft": true,
+        "publishAt": "2027-02-02T15:00:00+00:00"
+    },
+    "contractor-masonry-supplies": {
+        "title": "Contractor Masonry Supplies",
+        "file": "contractor-masonry-supplies.html",
+        "path": "contractor-masonry-supplies.html",
+        "extId": "affb17ce-6aee-4fa5-aa69-a3e06cbffa95",
+        "draft": true,
+        "publishAt": "2026-11-05T22:10:02+00:00"
+    },
+    "hardscape-materials-winona-lake-in": {
+        "title": "Hardscape Materials Winona Lake, IN",
+        "file": "hardscape-materials-winona-lake-in.html",
+        "path": "hardscape-materials-winona-lake-in.html",
+        "extId": "e749ef14-5ae6-42c8-9f1b-3506471ad3ed",
+        "draft": true,
+        "publishAt": "2027-01-02T15:00:00+00:00"
+    },
+    "brick-stone-supply-winona-lake-in": {
+        "title": "Brick & Stone Supply Winona Lake, IN",
+        "file": "brick-stone-supply-winona-lake-in.html",
+        "path": "brick-stone-supply-winona-lake-in.html",
+        "extId": "0d1a7e43-bb5b-4af7-b234-aa276e9882f9",
+        "draft": true,
+        "publishAt": "2026-11-07T22:10:02+00:00"
+    },
+    "brick-stone-supply-rochester-in": {
+        "title": "Brick & Stone Supply Rochester, IN",
+        "file": "brick-stone-supply-rochester-in.html",
+        "path": "brick-stone-supply-rochester-in.html",
+        "extId": "0fdbf32b-6d8a-4689-8e68-521b79c52a9f",
+        "draft": true,
+        "publishAt": "2026-12-02T15:00:00+00:00"
+    },
+    "brick-stone-supply-columbia-city-in": {
+        "title": "Brick & Stone Supply Columbia City, IN",
+        "file": "brick-stone-supply-columbia-city-in.html",
+        "path": "brick-stone-supply-columbia-city-in.html",
+        "extId": "327b755a-6d53-4856-ab51-b3e33228d8b3",
+        "draft": true,
+        "publishAt": "2026-11-05T22:10:02+00:00"
+    }
+}

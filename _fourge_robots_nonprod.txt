@@ -1,0 +1,3 @@
+# Served only on non-production hosts (see the Fourge Indexing block in .htaccess).
+User-agent: *
+Disallow: /

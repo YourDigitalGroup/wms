@@ -1,3 +1,24 @@
+# BEGIN Fourge Canonical Host — managed by Fourge, do not edit by hand
+# Every other address this site answers on (a parked or alias domain, www
+# when the site is bare, or the reverse) lands on https://www.warsawmasonry.com — the
+# Website URL in Site Foundry — so that is what the address bar shows.
+# Written only after that address answered as this very installation.
+# Non-production hosts (dev./staging./…, *.fourge.com, localhost, *.local,
+# bare IPs) are never redirected, so a staging copy stays staging.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{HTTP_HOST} !^www\.warsawmasonry\.com(:[0-9]+)?$ [NC]
+  RewriteCond %{HTTP_HOST} !^(dev|staging|stage|stg|test|testing|qa|uat|preview|beta|demo|sandbox)[0-9]*[.\-] [NC]
+  RewriteCond %{HTTP_HOST} !\.(fourge\.com|local|test|localhost|internal|lan|pages\.dev|netlify\.app|vercel\.app|herokuapp\.com|github\.io|ngrok\.io|ngrok-free\.app|trycloudflare\.com)(:[0-9]+)?$ [NC]
+  RewriteCond %{HTTP_HOST} !(^|\.)devlink[0-9]*\.[a-z]+(:[0-9]+)?$ [NC]
+  RewriteCond %{HTTP_HOST} !^localhost [NC]
+  RewriteCond %{HTTP_HOST} !^[0-9.]+(:[0-9]+)?$
+  RewriteCond %{HTTP_HOST} !^\[
+  RewriteCond %{REQUEST_URI} !^/\.well-known/ [NC]
+  RewriteRule ^ https://www.warsawmasonry.com%{REQUEST_URI} [R=301,L]
+</IfModule>
+# END Fourge Canonical Host
+
 # Fourge — force HTTPS site-wide.
 # Passwords are hashed AT REST (Argon2id/bcrypt), but a login, password change,
 # or API key sent over plain HTTP is exposed in transit. This redirect closes
@@ -46,3 +67,99 @@
   RewriteCond %{REQUEST_FILENAME}\.html -f
   RewriteRule ^(.+?)/?$ $1.html [L]
 </IfModule>
+
+# BEGIN Fourge SEO Platform API
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^api/seo-platform/package/?$ admin/api.php?action=seo_package [L,QSA]
+  RewriteRule ^api/seo-platform/tick/?$ admin/api.php?action=seo_pkg_tick [L,QSA]
+</IfModule>
+# END Fourge SEO Platform API
+
+# BEGIN Fourge Indexing
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Stop Apache/LiteSpeed content negotiation from resolving /page on its
+  # own — it silently bypasses (and defeats) the rules below.
+  Options -MultiViews
+  # /page/ -> /page  (only for a slashed URL that is not a real file or
+  # directory, so this can never touch a URL that already works)
+  RewriteCond %{REQUEST_URI} !^/(admin|data)/ [NC]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteRule ^(.+)/$ /$1 [R=301,L]
+</IfModule>
+<IfModule mod_setenvif.c>
+  # Non-production hosts: explicit shapes only, never a catch-all.
+  SetEnvIf Host "^(dev|staging|stg|test|qa|uat|preview|beta|demo|sandbox)[.\-]" FOURGE_NONPROD=1
+  SetEnvIf Host "\.fourge\.com$" FOURGE_NONPROD=1
+  SetEnvIf Host "^localhost" FOURGE_NONPROD=1
+  SetEnvIf Host "\.local$" FOURGE_NONPROD=1
+  SetEnvIf Host "^[0-9.]+$" FOURGE_NONPROD=1
+  # …and this site's own production host is ALWAYS production, last word.
+  SetEnvIf Host "^(www\.)?warsawmasonry\.com(:[0-9]+)?$" !FOURGE_NONPROD
+</IfModule>
+<IfModule mod_headers.c>
+  Header always set X-Robots-Tag "noindex, nofollow" env=FOURGE_NONPROD
+</IfModule>
+<IfModule mod_rewrite.c>
+  RewriteCond %{ENV:FOURGE_NONPROD} =1
+  RewriteRule ^robots\.txt$ /_fourge_robots_nonprod.txt [L]
+</IfModule>
+# END Fourge Indexing
+
+# BEGIN Fourge Default Headers
+<IfModule mod_headers.c>
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Strict-Transport-Security "max-age=31536000" env=HTTPS
+</IfModule>
+# END Fourge Default Headers
+
+# BEGIN Fourge Blog Sync API
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^api/blog-sync/tick/?$ admin/api.php?action=blog_sync_tick [L,QSA]
+</IfModule>
+# END Fourge Blog Sync API
+
+# BEGIN Fourge Clean URLs
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # /index.html -> the site root (one canonical home URL)
+  RewriteCond %{REQUEST_URI} !^/(admin|data)/ [NC]
+  RewriteCond %{THE_REQUEST} \s/+index\.html?[\s?] [NC]
+  RewriteRule ^ / [R=301,L]
+  # Any explicit .html request -> its extensionless URL (301)
+  RewriteCond %{REQUEST_URI} !^/(admin|data)/ [NC]
+  RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+  RewriteRule ^ /%1 [R=301,L]
+  # Extensionless request -> serve the matching .html file when it exists
+  RewriteCond %{REQUEST_URI} !^/(admin|data)/ [NC]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+</IfModule>
+# END Fourge Clean URLs
+
+# BEGIN Fourge cache headers — managed by Fourge, do not edit by hand
+# Pages, styles, scripts and data aren't versioned in their filenames, so browsers revalidate them on every
+# load. When nothing changed, Apache answers 304 Not Modified, so this stays fast. Images and fonts are
+# kept for a day.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(html?|css|js|json)$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+  <FilesMatch "\.(jpe?g|png|gif|webp|svg|ico|woff2?)$">
+    Header set Cache-Control "public, max-age=86400"
+  </FilesMatch>
+</IfModule>
+# END Fourge cache headers
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82 .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

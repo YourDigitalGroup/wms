@@ -14,3 +14,24 @@
     Deny from all
   </IfModule>
 </FilesMatch>
+
+# BEGIN Fourge Posts CORS
+<IfModule mod_headers.c>
+  <FilesMatch "^(posts|reviews|map|events)\.json$">
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET"
+  </FilesMatch>
+</IfModule>
+# END Fourge Posts CORS
+
+# BEGIN Fourge Entries Guard
+<FilesMatch "^entries\.json$">
+  <IfModule mod_authz_core.c>
+    Require all denied
+  </IfModule>
+  <IfModule !mod_authz_core.c>
+    Order allow,deny
+    Deny from all
+  </IfModule>
+</FilesMatch>
+# END Fourge Entries Guard
