@@ -1,0 +1,7 @@
+# Optimized assets: file names change whenever content changes (size/version in the name),
+# so they can be cached for a year. FilesMatch here runs after the site-wide 1-day rule.
+<IfModule mod_headers.c>
+  <FilesMatch "\.(webp|png|jpe?g|woff2)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+</IfModule>
