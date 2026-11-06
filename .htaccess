@@ -36,6 +36,28 @@
   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 </IfModule>
 
+# BEGIN WMS SEO & Performance — hand-maintained (not managed by Fourge; keep above the clean-URL rules)
+# No directory listings (e.g. /assets/, /uploads/ were browsable).
+Options -Indexes
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  # Legacy URL from the previous site that is still indexed.
+  RewriteRule ^about-us/?$ / [R=301,L]
+  # One URL per page: /products/ -> /products (was a 200 duplicate). Real directories are left alone.
+  RewriteCond %{REQUEST_URI} !^/(admin|data|api)/ [NC]
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)/$ /$1 [R=301,L]
+</IfModule>
+<IfModule mod_mime.c>
+  AddType image/webp .webp
+  AddType font/woff2 .woff2
+</IfModule>
+# Text compression (HTML/CSS/JS/JSON were served uncompressed).
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/plain text/css text/xml text/javascript application/javascript application/x-javascript application/json application/ld+json application/xml application/rss+xml image/svg+xml image/x-icon
+</IfModule>
+# END WMS SEO & Performance
+
 # HSTS — tells browsers "only ever load this site over HTTPS." Left OFF by
 # default ON PURPOSE: once a browser sees this header it will REFUSE http:// for
 # max-age seconds, so a broken or expired certificate can make the whole site

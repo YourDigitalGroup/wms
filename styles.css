@@ -1,4 +1,7 @@
 /* Warsaw Masonry Supply — single site stylesheet (CMS-ready) */
+/* Self-hosted fonts (Cinzel & Jost, SIL OFL) — replaces the render-blocking Google Fonts request */
+@font-face{font-family:'Cinzel';font-style:normal;font-weight:400 900;font-display:swap;src:url(assets/opt/fonts/cinzel-latin-v26.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:'Jost';font-style:normal;font-weight:100 900;font-display:swap;src:url(assets/opt/fonts/jost-latin-v20.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 :root{
   --brand-color-primary:#c8a24c;   /* gold */
   --brand-color-secondary:#15120d; /* ink */
@@ -261,8 +264,8 @@ a.pcard:hover{border-color:var(--line-strong);transform:translateY(-4px)}
 .footer{background:var(--ink0);padding:74px 0 0}
 .footer .wrap{padding-top:0}
 .fgrid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:48px;padding-bottom:56px;border-bottom:1px solid var(--line2)}
-.fgrid img{height:62px;margin-bottom:22px}
-.fcol h4{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;font-weight:600}
+.fgrid img{height:62px;width:auto;margin-bottom:22px}
+.fcol h4,.fcol .fcol-title{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);margin-bottom:20px;font-weight:600}
 .fcol .flinks{display:flex;flex-direction:column;gap:12px;font-size:14px;color:#c3b8a4}
 .fcol p{font-size:14px;line-height:1.8;color:#c3b8a4;font-weight:300}
 .fcol .fnote{color:var(--muted2);margin-top:10px}
@@ -353,3 +356,40 @@ a.pcard:hover{border-color:var(--line-strong);transform:translateY(-4px)}
   .hero-cta .btn{width:100%;max-width:340px;text-align:center}
   .radio-row{flex-direction:column;gap:12px}
 }
+
+/* ---------- SEO/AEO additions (Nov 2026) ---------- */
+/* FAQ questions are real headings (h3) wrapping the accordion button */
+.faq-h{margin:0;font:inherit;letter-spacing:normal}
+.faq-sign::before{content:"+"}
+.faq-answer a{color:var(--gold2);text-decoration:underline;text-underline-offset:3px}
+.lightsec .faq-answer a{color:#8a6d2c}
+.darksec .lnk-gold,.split-body:not(.lightsec) .lnk-gold{color:var(--gold2)}
+.lnk-gold{text-decoration:underline;text-underline-offset:3px}
+/* Home credentials strip */
+.trust{padding:0 0 96px;margin-top:-48px}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:28px;border-top:1px solid rgba(42,37,29,.16);padding-top:48px;text-align:center}
+.trust-item strong{display:block;font-size:20px;font-weight:600;color:#241f18;letter-spacing:.04em}
+.trust-item span{display:block;margin-top:8px;font-size:14px;line-height:1.6;color:#6f6656;font-weight:400}
+.trust-item a{color:#8a6d2c;text-decoration:underline;text-underline-offset:3px}
+/* Products: brands we carry */
+.brand-head{max-width:860px;margin:0 auto 40px;padding:0 24px;text-align:center}
+.brand-head .eyebrow{color:#9a7828}
+.brand-head h2{font-size:clamp(24px,2.8vw,34px);color:#241f18;margin-top:14px}
+.brand-head .body{color:#5d5547;margin-top:16px}
+/* Town / guide landing pages */
+.town-page{max-width:880px;margin:0 auto;padding:150px 24px 88px}
+.town-page h1{font-family:'Cinzel',serif;font-size:clamp(30px,4vw,46px);line-height:1.15;color:var(--paper);margin-bottom:24px}
+.town-page h2{font-family:'Cinzel',serif;font-size:clamp(22px,2.6vw,30px);line-height:1.25;color:var(--paper);margin:52px 0 16px}
+.town-page h3{font-size:19px;line-height:1.4;font-weight:500;color:var(--gold2);margin:28px 0 10px}
+.town-page p,.town-page li{font-size:17px;line-height:1.8;color:#e4dccc;margin-bottom:16px}
+.town-page ul{padding-left:22px;margin-bottom:20px}
+.town-page a{color:var(--gold2);text-decoration:underline;text-underline-offset:3px}
+.town-page a.btn{text-decoration:none}
+.town-page a.btn-gold{color:var(--ink)}
+.town-fig{margin:32px 0 28px}
+.town-fig img{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.town-cta{display:flex;flex-wrap:wrap;gap:14px;margin:0 0 12px}
+.faq-list h3{color:var(--paper)}
+.town-links li{margin-bottom:10px}
+@media (max-width:880px){.trust-grid{grid-template-columns:1fr 1fr}}
+@media (max-width:767px){.trust-grid{grid-template-columns:1fr;gap:22px}.town-page{padding:120px 22px 64px}}

@@ -46,5 +46,33 @@
         "extId": "327b755a-6d53-4856-ab51-b3e33228d8b3",
         "draft": true,
         "publishAt": "2026-11-05T22:10:02+00:00"
+    },
+    "brick-stone-supply-mentone-in": {
+        "title": "Brick & Stone Supply Mentone, IN",
+        "file": "brick-stone-supply-mentone-in.html",
+        "path": "brick-stone-supply-mentone-in.html",
+        "draft": true,
+        "publishAt": "2027-03-02T15:00:00+00:00"
+    },
+    "brick-stone-supply-akron-in": {
+        "title": "Brick & Stone Supply Akron, IN",
+        "file": "brick-stone-supply-akron-in.html",
+        "path": "brick-stone-supply-akron-in.html",
+        "draft": true,
+        "publishAt": "2027-04-02T15:00:00+00:00"
+    },
+    "brick-stone-supply-north-manchester-in": {
+        "title": "Brick & Stone Supply North Manchester, IN",
+        "file": "brick-stone-supply-north-manchester-in.html",
+        "path": "brick-stone-supply-north-manchester-in.html",
+        "draft": true,
+        "publishAt": "2027-05-02T15:00:00+00:00"
+    },
+    "brick-stone-supply-peru-in": {
+        "title": "Brick & Stone Supply Peru, IN",
+        "file": "brick-stone-supply-peru-in.html",
+        "path": "brick-stone-supply-peru-in.html",
+        "draft": true,
+        "publishAt": "2027-06-02T15:00:00+00:00"
     }
 }

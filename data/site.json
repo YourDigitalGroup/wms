@@ -1,9 +1,9 @@
 {
-    "name": "Warsaw Masonry",
-    "tagline": "",
-    "logo": "",
-    "favicon": "",
-    "phone": "5742672825",
+    "name": "Warsaw Masonry Supply",
+    "tagline": "Quality set in stone.",
+    "logo": "https://www.warsawmasonry.com/assets/wms-logo.png",
+    "favicon": "/assets/opt/favicon-192.png",
+    "phone": "+1-574-267-2825",
     "email": "",
     "website": "https://www.warsawmasonry.com",
     "notifyEmail": "",
@@ -15,9 +15,9 @@
         "country": "US"
     },
     "hours": {
-        "weekday": "",
-        "saturday": "",
-        "sunday": ""
+        "weekday": "Mon–Fri 7:00 AM – 5:00 PM",
+        "saturday": "Closed",
+        "sunday": "Closed"
     },
     "social": {
         "facebook": "",
@@ -55,11 +55,11 @@
         "hasSecret": true,
         "enabled": true,
         "version": "v3",
-        "threshold": 0.8000000000000000444089209850062616169452667236328125
+        "threshold": 0.8
     },
     "analytics": {
         "chatbot": {
-            "embed": "<script src=\"https://widgets.leadconnectorhq.com/loader.js\" data-resources-url=\"https://widgets.leadconnectorhq.com/chat-widget/loader.js\" data-widget-id=\"6ae8f39e4a1ccfe7890b7532\"></script>",
+            "embed": "<script data-wms-chat=\"\">/* LeadConnector chat: loads on first scroll/tap/keypress or 4s after page load */(function(me){var done=false,ev=[\"scroll\",\"pointerdown\",\"keydown\",\"touchstart\"];function go(){if(done)return;done=true;ev.forEach(function(e){removeEventListener(e,go)});if(document.querySelector('script[src*=\"leadconnectorhq.com/loader.js\"]'))return;var s=document.createElement(\"script\");s.src=\"https://widgets.leadconnectorhq.com/loader.js\";s.setAttribute(\"data-resources-url\",\"https://widgets.leadconnectorhq.com/chat-widget/loader.js\");s.setAttribute(\"data-widget-id\",\"6ae8f39e4a1ccfe7890b7532\");s.async=true;if(me&&me.parentNode)me.parentNode.insertBefore(s,me.nextSibling);else document.head.appendChild(s)}ev.forEach(function(e){addEventListener(e,go,{passive:true})});if(document.readyState===\"complete\")setTimeout(go,4000);else addEventListener(\"load\",function(){setTimeout(go,4000)})})(document.currentScript);</script>",
             "testing": false
         },
         "custom": {
@@ -74,16 +74,16 @@
     "devHosts": [],
     "business": {
         "name": "Warsaw Masonry Supply",
-        "url": "https://warsawmasonry.com",
+        "url": "https://www.warsawmasonry.com",
         "type": "Masonry Supply & Hardscape",
         "categories": "General Contractor",
-        "description": "Northern Indiana's trusted source for premium brick, natural stone, pavers and hardscape \u2014 with hands-on expertise from the first idea to the finished project.",
+        "description": "Northern Indiana's trusted source for premium brick, natural stone, pavers and hardscape — with hands-on expertise from the first idea to the finished project.",
         "phone": "(574) 267-2825",
         "street": "1403 N Detroit St",
         "city": "Warsaw",
         "state": "IN",
         "zip": "46580",
-        "hours": "Mo-Fr 7:00 AM \u2013 5:00 PM; Sa-Su Closed",
+        "hours": "Mo-Fr 07:00-17:00",
         "gbp_url": "https://maps.google.com/?cid=3858331614010352909",
         "service_area": {
             "primary": "Warsaw, IN",
@@ -93,7 +93,9 @@
                 "Goshen, IN",
                 "Rochester, IN",
                 "Akron, IN",
-                "Peru, IN"
+                "Peru, IN",
+                "Mentone, IN",
+                "North Manchester, IN"
             ]
         },
         "services": [
